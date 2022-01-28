@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@100;200&family=Source+Serif+Pro:wght@200;400&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(../img/wallpaperbetter.com_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 22px;
+}
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+.header{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+}
+.logo{
+    width: 25%;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: white 3px solid;
+    border-radius: 20px;
+    background-color: none ;
+    opacity: 0.7;
+    transition-duration: 0.5;
+}
+.links:hover{
+    transform: scale(0.9);
+    color: #00FA9A;
+}
+.list{
+    display: flex;
+    color: #F5F5F5;
+}
+.general{
+    opacity: 0.7;
+    background-color: white;
+    margin-top: 100px;
+    font-family: 'Source Serif Pro', serif;
+    border-radius: 20px;
+    padding: 20px;
+    color: black;
+    text-align: justify;
+}
+.list-a{
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.list-a:hover{
+    color: #00FA9A ;
+}
+.video{
+   width: 80%;
+   margin-left: 150px;
+}
+.video-p{
+    text-align: center;
+}
+.video-a{
+    text-decoration: none;
+    color: #00FA9A;
+}
+.video-a:hover{
+    color: green ;
+}

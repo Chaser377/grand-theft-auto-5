@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@100;200&family=Source+Serif+Pro:wght@200;400&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 22px;
+}
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+.header{
+    margin-top: 20px;
+    font-size: 35px;
+    text-align: center;
+}
+.logo{
+    width: 25%;
+}
+.links{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: white 3px solid;
+    border-radius: 20px;
+    background-color: none ;
+    opacity: 0.7;
+    transition-duration: 0.5;
+}
+.navbar{
+    text-align: center;
+}
+nav a:hover{
+   color: #00FA9A;
+   transform: scale(0.9);
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.about-sect{
+    opacity: 0.7;
+    background-color: white;
+    margin-top: 100px;
+    font-family: 'Source Serif Pro', serif;
+    border-radius: 20px;
+}
+.text-about{
+    padding: 15px;
+}
+.wiki{
+    padding: 20px;
+    text-align: justify;
+}
+.wiki-link{
+    text-decoration: none;
+    color: #3CB371;
+}
+.wiki-link:hover{
+    color: #00FA9A ;
+}
+
